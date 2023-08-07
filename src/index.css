@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  max-width: 500px;
+  margin-top: 70px;
+  margin-inline: auto;
+  background-color: #6699cc4e;
+  box-shadow: 0px 0px 12px #ccc;
+  border-radius: 8px;
+  padding: 2rem 3rem;
+}
+.container h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 15px 4px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+.btn {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  padding: 15px 0;
+  background-color: #0077ee;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+} /* unvisited link */
+.btn-outline {
+  background-color: #fff8fa;
+  color: #0077ee;
+}
+.center {
+  text-align: center;
+  margin: 24px 0;
+}
+p {
+  margin: 10px 0;
+}
+.img-container {
+  text-align: center;
+}
+.img-container img {
+  height: 200px;
 }
